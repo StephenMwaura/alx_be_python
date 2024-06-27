@@ -6,6 +6,6 @@ match Priority:
     case "high" | "medium" | "low":
         print("Reminder")
         if Time_Bound == "yes":
-            print(f"{task} is a {priority} task that requires immediate action")
+            print(f"{Task} is a {Priority} task that requires immediate action")
         elif Time_Bound == "no":
-            print(f"{task} is a {priority} priority task.Consider completing it when you have free time." )
+            print(f"{Task} is a {Priority} priority task.Consider completing it when you have free time." )
