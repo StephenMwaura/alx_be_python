@@ -2,7 +2,7 @@ task = input("Enter your task: ")
 
 priority = input("Priority (high/medium/low):").lower()
 
-time_bound = input("Is it time-bound? (yes / no): ").strip().lower()
+time_bound = input("Is it time-bound? (yes/no): ").strip().lower()
 
 
 
