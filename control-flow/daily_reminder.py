@@ -14,11 +14,11 @@ match priority:
     case "low":
         reminder = (f"{task}Complete it during free time.")
     case _:
-        print(f"{task}Invalid priority")
+        reminder = (f"{task}Invalid priority")
 
 if time_bound == "yes":
-    reminder = "requires immediate attention today!"
+    reminder += "requires immediate attention today!"
 else :
-    reminder = "." 
+    reminder += "." 
 
-print(f"{reminder}")
+print(f"Reminder:{reminder}")
