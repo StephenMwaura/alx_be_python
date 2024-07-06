@@ -9,7 +9,7 @@ def display_menu():
 
 
 def add_items(shopping_list):
-    item = input("Enter the item to add : ")
+    item = input("Enter the item to add: ")
     shopping_list.append(item)
     print(f"{item} has been successfully added.")
 def remove_item(shopping_list):
