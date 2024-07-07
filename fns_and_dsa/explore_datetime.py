@@ -20,6 +20,10 @@ def calculate_future_date():
     return formatted_future_date
 calculate_future_date()
 
-if __name__ == "__main__":
+def main():
+    display_current_datetime()
     number_of_days = int(input("Enter the number of days to be add to the current date: "))
-    calculate_future_date(number_of_days)
+    calculate_future_date()
+
+if __name__ =="__main__":
+    main()  
