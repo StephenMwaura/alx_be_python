@@ -27,7 +27,7 @@ def main():
 
 if __name__ =="__main__":
     try:
-        number_of_days = int(input("Enter the number of days to be add to the current date: "))
+        number_of_days = int(input("Enter the number of days to add to the current date:"))
         calculate_future_date(number_of_days)
     except ValueError:
         print("Enter valid interger")
