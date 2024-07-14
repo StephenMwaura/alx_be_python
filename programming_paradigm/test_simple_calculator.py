@@ -3,7 +3,7 @@ from simple_calculator import SimpleCalculator
 
 class TestSimpleCalculator(unittest.TestCase):
     def setUp(self):
-        self.calc = Simplecalculator()
+        self.calc = SimpleCalculator
     def test_addition(self):
         self.assertEqual(self.calc.add(2,3),5)
         self.assertEqual(self.calc.add(-2,2), 0)
@@ -15,8 +15,3 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.divide(10,5),2)
         with self.assertRaises(ZeroDivisionError):
             (self.calc.divide(5,0),0)
-
-
-
-
-
