@@ -12,7 +12,7 @@ class BankAccount:
         else:
             return False
     def display_balance(self):
-        return  f"Current Balance {self._account_balance}"
+        return  f"Current Balance:{self._account_balance}"
     def __str__(self):
         return f"Bankaccount(balance={self._account_balance})"
      
