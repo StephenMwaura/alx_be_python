@@ -18,9 +18,9 @@ class Library:
      def __init__(self):
           self.books= []
      
-     def Add_book(self , book):
+     def Add_Book(self , book):
           self.books.append(book)
-     def Check_out_book(self ,title):
+     def Check_out_Book(self ,title):
           for book in self.books:
                if book.get_title() == title:
                     if not book.is_checked_out():
@@ -29,7 +29,7 @@ class Library:
                     else:
                          return f"Book {title} is already checked out."
                     
-     def Return_book(self,title):
+     def Return_Book(self,title):
           for book in self.books:
                if book.get_title() ==title:
                 if book.is_checked_out():
